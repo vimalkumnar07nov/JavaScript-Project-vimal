@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Temp Converter</title>
+</head>
+<body>
+    <div class="container">
+        
+        <form id="tempCalc" onsubmit="calculateTemp(); return false">
+            <label>Temperature converter</label>
+            <h5>Cel to Fah / Fah to Cel</h5>
+            <br>
+            <input type="number" name="temp" placeholder="0" id="temp" />
+            <select name="temp-diff" id="temp_diff">
+                <option value="cel">Celcius</option>
+                <option value="fah">Fahrenheight</option>
+            </select><br>
+            <input type="submit" name="temp" class="submit-btn"><br>
+            <span id="resultContainer">RESULT</span>
+
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(188, 32, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.gamecontainer{
+    background-color: rgb(16, 212, 45);
+    display: flex;
+    padding: 2rem;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,10vw);
+    grid-template-rows: repeat(3,10vw);
+}
+.box{
+    border: 3px solid black;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(123, 23, 237); */
+}
+.box:hover{
+    background-color: rgb(231, 121, 200);
+}
+.bl{
+    border-left: 0;
+}
+.bt{
+    border-top: 0;
+}
+.br{
+    border-right: 0;
+}
+.bb{
+    border-bottom: 0;
+}
+.gameinfo{
+    padding-left: 2rem;
+}
+.heading{
+    padding-bottom: 2rem;
+    font-size: 2rem;
+}
+.info{
+    padding-right: 1rem;
+    font-size: 1.5rem;
+}
+#reset{
+    padding: 12px 25px;
+    border-radius: 8px;
+    background-color: rgb(48, 132, 236);
+    color: aliceblue;
+    font-size: 18px;
+}
+#reset:hover{
+    background-color: rgb(41, 41, 41);
+    color: cornflowerblue;
+}
